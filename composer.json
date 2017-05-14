@@ -1,0 +1,27 @@
+{
+  "name": "baytemizel/random",
+  "description": "A random generator for PHP",
+  "version": "0.1.0",
+  "type": "library",
+  "keywords": ["fake", "mock", "data"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tayfun Temizel",
+      "email": "baytemizel@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "help@baytemizel.com",
+    "issues": "https://github.com/baytemizel/random/issues"
+  },
+  "require": {
+    "php": ">5.5.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bayt\\Random\\": "src/"
+    }
+  }
+}
